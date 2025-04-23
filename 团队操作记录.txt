@@ -1,0 +1,45 @@
+{
+    "msg": "",
+    "data": {
+        "op_record_meta_tree": [
+            {
+                "node_type": 0,
+                "parent_type_key": "",
+                "work_item_type_key": "",
+                "sort": 0,
+                "type_key": "team",
+                "name": "团队",
+                "sub_meta_list": [
+                    {
+                        "node_type": 0,
+                        "parent_type_key": "team",
+                        "work_item_type_key": "",
+                        "sort": 0,
+                        "type_key": "team_basic_info",
+                        "name": "基本信息",
+                        "sub_meta_list": []
+                    },
+                    {
+                        "name": "团队人员",
+                        "sub_meta_list": [],
+                        "node_type": 0,
+                        "parent_type_key": "team",
+                        "work_item_type_key": "",
+                        "sort": 100,
+                        "type_key": "team_members"
+                    },
+                    {
+                        "node_type": 0,
+                        "parent_type_key": "team",
+                        "work_item_type_key": "",
+                        "sort": 200,
+                        "type_key": "team_relation",
+                        "name": "团队关联",
+                        "sub_meta_list": []
+                    }
+                ]
+            }
+        ]
+    },
+    "code": 0
+}
